@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<body style="font-family: Arial, Helvetica, sans-serif; padding-bottom: 20px;">
+		<div style="position:fixed; left: 0; right: 0; bottom: 0; top: 0;">
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td bgcolor="#f0f0f0" style="padding: 20px 0 30px 0;">
+						<table align="center" bordercolor="#CCCCCC" border="1" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+							<tr>
+								<td>
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+										<tr>
+											<td align="center" bgcolor="#FFFFFF" style="padding: 40px 0 30px 0;">
+												<table>
+													<tr>
+														<td style="padding: 5px 5px 5px 5px;" width="40%" align="center">
+															<img src="../images/logos.png" alt="logo_solnet" width="136" height="36" style="display: block;" />
+														</td>
+														<td style="color: #153643; font-family: Arial, sans-serif; font-size: 24px;" width="60%">
+															<b>SOLNET S.A.</b><br/>
+															<small>Ficha de Asistencia</small>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td bgcolor="#ffffff">
+												<hr style=" display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; ">
+											</td>
+										</tr>
+										<tr>
+											<td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%">
+													<tr>
+														<td style="color: #153643; font-family: Arial, sans-serif; font-size: 24px;">
+															<img src="data:image/png;base64, <?php echo trim($rec->getField('FotoB64')); ?>" alt="profileimg" width="50" height="50" style="display: block;" /><br>
+															<b>$nombreusuario</b>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+															RUT del Personal Asistente: $rutAsistencia<br/>
+															Fecha de Asistencia: $fechaAsistencia
+														</td>
+													</tr>
+													<tr>
+														<td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+															Hora de Entrada: <b>$horaEntrada</b>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+															Hora de Salida: <b>$horaSalida</b>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+															Observaciones: $obs
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td bgcolor="#173644" style="padding: 30px 30px 30px 30px;">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%">
+													<tr>
+														<td width="100%" style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;">
+															Solnet S.A.<br/>
+															La Concepción 81, of. 709, 1002 y 1003, Providencia, Santiago, Chile.<br/>
+															<a href="www.solnet.cl" style="color: #ffffff;"><font color="#ffffff">www.solnet.cl</font></a>, Email: 
+															<a href="mailto:solnet@solnet.cl" style="color: #ffffff;"><font color="#ffffff">solnet@solnet.cl</font></a>
+															<br/>
+															Mesa central: (+56 2) 22642026, Operaciones: (+56 2) 22649016
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>	
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

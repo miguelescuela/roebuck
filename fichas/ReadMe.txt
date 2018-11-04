@@ -1,0 +1,1 @@
+Este directorio es necesario para mpdf y la creacion de las fichas de asistencia.
